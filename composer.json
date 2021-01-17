@@ -1,0 +1,21 @@
+{
+	"name":"mk2/backpack_cache",
+	"description": "Next PHP Framework 'mark2' CacheBackpack packeage.",
+	"type": "library",
+	"license": "MIT",
+	"homepage":"https://www.mk2-php.com/",
+	"authors": [{
+		"name": "Nakajima Satoru"
+	}],
+	"keywords": ["PHP","php","Framework","framework","mark2","Web","backpack","Cache"],
+	"require": {
+		"php": ">=5.4.0",
+		"mk2/libraries":"dev-master",
+		"mk2/backpack_encrypt":"dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"mk2\\backpack_cache\\":"src/"
+		}
+	}
+}
