@@ -1,5 +1,20 @@
 <?php
 
+/**
+ * ===================================================
+ * 
+ * PHP Framework "Mk2"
+ *
+ * CacheBackpack
+ * 
+ * URL : https://www.mk2-php.com/
+ * 
+ * Copylight : Nakajima-Satoru 2021.
+ *           : Sakaguchiya Co. Ltd. (https://www.teastalk.jp/)
+ * 
+ * ===================================================
+ */
+
 namespace mk2\backpack_cache;
 
 use Mk2\Libraries\Backpack;
@@ -8,7 +23,7 @@ use mk2\backpack_encrypt\EncryptBackpack;
 class CacheBackpack extends Backpack{
 
 	/**
-	 * mode 	: Cache method.
+	 *  mode 	: Cache method.
 	 * 	file		= file cache(Automatically generated in the temporary directory)
 	 * 	memory	= Cache in shared memory (requires APCu module)
 	 */
